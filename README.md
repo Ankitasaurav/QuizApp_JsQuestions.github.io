@@ -1,1 +1,1 @@
-# QuizApp.github.io
+# QuizApp_JsQuestions.github.io
