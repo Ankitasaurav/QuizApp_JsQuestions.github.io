@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="inner-container">
+        <!-- "OnlyRemove" div have used for removing the questions to show the result clearly! -->
+        <div class="OnlyRemove">
+          <p class="Q-No"></p>
+          <h2 class="question">Questions</h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="ans-1" class="answer" />
+              <label for="ans-1" id="option-1">Answer Option</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans-2" class="answer" />
+              <label for="ans-2" id="option-2">Answer Option</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans-3" class="answer" />
+              <label for="ans-3" id="option-3">Answer Option</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans-4" class="answer" />
+              <label for="ans-4" id="option-4">Answer Option</label>
+            </li>
+          </ul>
+        </div>
+        <div id="result"></div>
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
